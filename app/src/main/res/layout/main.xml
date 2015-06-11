@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="#00bcd4">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="260sp"
+        android:src="@drawable/mock"
+        android:id="@+id/m"
+        android:paddingBottom="70sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/m">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/m">
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/preview"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:text="@string/prev"
+                    android:gravity="center"
+                    android:id="@+id/intr"
+                    android:textColor="#fdd835"
+
+                    android:textSize="20sp"
+                    android:layout_marginLeft="30sp"
+                    android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/themes"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:text="@string/theme"
+                    android:id="@+id/intr2"
+                    android:textColor="#fdd835"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dev"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100sp"
+                    android:text="@string/dev"
+                    android:id="@+id/intr3"
+                    android:textColor="#fdd835"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/sys"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100sp"
+                android:text="@string/system"
+                android:id="@+id/sy"
+                android:textColor="#fdd835"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/r"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100sp"
+                android:text="@string/reboot"
+                android:id="@+id/re"
+                android:textColor="#fdd835"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mail"
+            android:layout_width="fill_parent"
+            android:layout_height="150sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="150sp"
+                android:text="@string/mail"
+                android:id="@+id/ma"
+                android:textColor="#fdd835"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

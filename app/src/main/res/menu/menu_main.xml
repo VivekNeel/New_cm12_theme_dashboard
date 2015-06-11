@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/one" android:title="Rate"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/two" android:title="Share"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/three" android:title="exit"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

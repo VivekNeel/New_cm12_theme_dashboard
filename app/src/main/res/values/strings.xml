@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Neat cm12</string>
+    <string name="xda">http://forum.xda-developers.com/member.php?u=5022494</string>
+    <string name="applink">https://play.google.com/store/apps/details?id=com.vivek.template</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="ab">Hi , Myself <b>Vivek Neel</b>.An enthusiastic <b>Android developer and
+        cool minded person :D</b> </string>
+
+    <string name="prev">See all the previews of this theme by clicking on this card</string>
+    <string name="theme">Did you like the previews? Click this card to apply this theme</string>
+    <string name="dev">Want to know about the developer?Click this card to find more about his work</string>
+    <string name="system">Restart SystemUI to make sure the theme is applied perfectly by clicking on this card</string>
+    <string name="reboot">Restart your phone to make sure the theme is applied perfectly by clicking on this card</string>
+    <string name="mail">Unthemed icons or want to contact developer? Click this card to send an email to dev .Make sure you send the resources from particular rom too</string>
+    <string name="email">vivek2neel@gmail.com</string>
+    <string name="sub1">Question</string>
+    <string name="sub12">q</string>
+
+</resources>
