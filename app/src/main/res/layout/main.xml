@@ -170,6 +170,7 @@
                 android:id="@+id/re"
                 android:textColor="#fdd835"
                 android:gravity="center"
+
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
@@ -181,7 +182,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/mail"
+            android:id="@+id/donation"
             android:layout_width="fill_parent"
             android:layout_height="150sp"
             android:layout_margin="8sp"
@@ -190,7 +191,26 @@
             card_view:cardBackgroundColor="#ff212121">
 
 
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100sp"
+                android:text="@string/donate"
+                android:id="@+id/dona"
+                android:textColor="#fdd835"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
 
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mail"
+            android:layout_width="fill_parent"
+            android:layout_height="150sp"
+            android:layout_margin="8sp"
+            android:padding="15sp"
+            card_view:cardElevation="4sp"
+            card_view:cardBackgroundColor="#ff212121">
 
             <TextView
                 android:layout_width="fill_parent"

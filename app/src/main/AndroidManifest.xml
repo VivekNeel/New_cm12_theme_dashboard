@@ -3,6 +3,8 @@
     package="com.vivek.template" >
 
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
@@ -33,6 +35,11 @@
         <activity android:name=".about"
             android:label="About Developer"
             android:theme="@style/about_theme"/>
+
+        <activity
+            android:theme="@style/about_theme"
+            android:label="Donate"
+            android:name=".Donation" />
 
 
     </application>

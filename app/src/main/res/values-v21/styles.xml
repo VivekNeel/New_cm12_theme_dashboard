@@ -6,10 +6,11 @@
 
     </style>
 	
-<style  name="about_theme"  parent="Theme.AppCompat.Light.DarkActionBar"
+<style  name="about_theme"  parent="Theme.AppCompat.NoActionBar"
     >
     <item name="android:colorPrimaryDark">#01a4b9</item>
 <item name="android:colorPrimary">#00bcd4</item>
+ <item name="android:statusBarColor">#e8c630</item>
 </style>
 
 

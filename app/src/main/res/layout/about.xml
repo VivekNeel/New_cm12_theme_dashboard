@@ -107,6 +107,7 @@
                         android:text="Twitter"
                         android:textStyle="bold"
                         android:id="@+id/twitter"
+
                         android:layout_alignParentBottom="true"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentEnd="true" />

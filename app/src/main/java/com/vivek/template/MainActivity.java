@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-      MenuInflater m = getMenuInflater();
-      m.inflate(R.menu.menu_main , menu);
+        MenuInflater m = getMenuInflater();
+        m.inflate(R.menu.menu_main , menu);
         return true;
     }
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent f = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(getString(R.string.applink)));
                 startActivity(f);
 
-             break;
+                break;
             case R.id.two:
                 Intent ff = new Intent(Intent.ACTION_SEND);
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(Intent.createChooser(ff , "Share via:"));
                 break;
             case R.id.three:
-                   finish();
+                finish();
                 break;
 
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         preview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent a = new Intent(MainActivity.this , ViewPagerActivity.class);
+                Intent a = new Intent(MainActivity.this , ViewPagerActivity.class);
                 startActivity(a);
             }
         });
@@ -120,18 +120,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-         CardView reboot = (CardView) findViewById(R.id.r);
+        CardView reboot = (CardView) findViewById(R.id.r);
         reboot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               try{
+                try{
 
-                   process = Runtime.getRuntime().exec("reboot");
+                    process = Runtime.getRuntime().exec("su -c reboot");
 
-               }catch (IOException e){
+                }catch (IOException e){
 
 
-               }
+                }
             }
         });
 
@@ -162,34 +162,43 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        CardView ddd = (CardView) findViewById(R.id.donation);
+        ddd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ii = new Intent(MainActivity.this , Donation.class);
+                startActivity(ii);
+            }
+        });
+
     }
 
     private void killUI(String p){
         Process root = null;
         try{
 
-             root = Runtime.getRuntime().exec("su");
+            root = Runtime.getRuntime().exec("su");
         }catch (IOException e){
 
             e.printStackTrace();
         }
-      if(root!=null){
+        if(root!=null){
 
-          try{
-          DataOutputStream dataOutputStream = new DataOutputStream((root.getOutputStream()));
-          dataOutputStream.writeBytes("pkill " + p + "\n");
-          dataOutputStream.flush();
-          dataOutputStream.writeBytes("exit\n");
-          dataOutputStream.flush();
-          root.waitFor();
+            try{
+                DataOutputStream dataOutputStream = new DataOutputStream((root.getOutputStream()));
+                dataOutputStream.writeBytes("pkill " + p + "\n");
+                dataOutputStream.flush();
+                dataOutputStream.writeBytes("exit\n");
+                dataOutputStream.flush();
+                root.waitFor();
 
 
-      }catch (IOException e){
-          e.printStackTrace();
-          }catch (InterruptedException i){
-          i.printStackTrace();
-          }
-      }
+            }catch (IOException e){
+                e.printStackTrace();
+            }catch (InterruptedException i){
+                i.printStackTrace();
+            }
+        }
 
 
     }

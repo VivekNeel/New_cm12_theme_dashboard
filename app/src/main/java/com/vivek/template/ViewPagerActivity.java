@@ -27,7 +27,7 @@ public class ViewPagerActivity extends FragmentActivity {
         R.drawable.eight ,R.drawable.nine , R.drawable.ten ,
         R.drawable.eleven , R.drawable.tweleve ,R.drawable.thirteen ,
         R.drawable.fourteen , R.drawable.fifteen , R.drawable.sixteen ,
-        R.drawable.seventeen };
+        R.drawable.seventeen , R.drawable.eightneen , R.drawable.nightneen };
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         pagerAdapter = new PagerAdapter_for_ViewPager(ViewPagerActivity.this, f);

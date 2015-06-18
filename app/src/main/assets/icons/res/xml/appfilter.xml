@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <scale factor="1.0" />
+    <iconback img1="iconback" />
+    <iconmask img1="iconmask" />
+    <iconupon img1="iconupon" />
+	
+	 <item component="ComponentInfo{com.android.settings/com.android.settings.framework.activity.HtcSettings}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.MainEntry}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.MiuiPasswordGuardActivity}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.MiuiSettings}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings$WifiApSettingsActivity}" drawable="mobilehotspot" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettingsActivity}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettings}" drawable="settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.TetherSettingsWifi}" drawable="settings" />
+
+   
+   
+</resources>

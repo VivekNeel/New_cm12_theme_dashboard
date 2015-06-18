@@ -5,9 +5,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="about_theme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:colorPrimaryDark">#01a4b9</item>
-    <item name="android:colorPrimary">#00bcd4</item>
-        </style>
+
+
 
 </resources>

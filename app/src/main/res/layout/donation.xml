@@ -6,10 +6,28 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/donations_activity_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#111111"
+
+        android:id="@+id/donations_activity_container">
+
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:background="#fdd835"
+        android:layout_height="50sp"
+        android:id="@+id/dtoolbar">
+
+
+    </android.support.v7.widget.Toolbar>
+
     </LinearLayout>
+
+
 
 </LinearLayout>

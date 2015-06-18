@@ -17,4 +17,32 @@
     <string name="sub1">Question</string>
     <string name="sub12">q</string>
 
+    <string-array name="google_catalog_values">
+        <item>1 Euro</item>
+        <item>2 Euros</item>
+        <item>3 Euros</item>
+        <item>4 Euros</item>
+        <item>5 Euros</item>
+        <item>6 Euros</item>
+        <item>12 Euros</item>
+        <item>24 Euros</item>
+        <item>50 Euros</item>
+
+    </string-array>
+
+    <string name="donation_paypal_item">Donation</string>
+    <string name="donate">Show your support to the developer by clicking on this card!</string>
+
+    <string name="donations__description">Do you like this theme very much?and want to show your gratitude to the developer? See below</string>
+    <string name="donations__google_android_market">Donation via Google Play Store</string>
+    <string name="donations__google_android_market_not_supported_title">In-App Donations are not supported.</string>
+    <string name="donations__google_android_market_not_supported">In-App Donations are not supported. Is Google Play Store installed correctly?</string>
+    <string name="donations__google_android_market_description">Google takes 30 % off every donation!</string>
+    <string name="donations__google_android_market_donate_button">Donate!</string>
+    <string name="donations__google_android_market_text">How much?</string>
+    <string name="donations__thanks_dialog_title">Thanks!</string>
+    <string name="donations__thanks_dialog">Thanks for donating!\nI really appreciate this!</string>
+    <string name="donations__alert_dialog_title">Error occurred</string>
+    <string name="donations__alert_dialog_no_browser">No browser was found to open a website!</string>
+
 </resources>
