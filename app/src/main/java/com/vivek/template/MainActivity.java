@@ -126,11 +126,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try{
 
-<<<<<<< HEAD
+
                     process = Runtime.getRuntime().exec("su -c reboot");
-=======
+
                    process = Runtime.getRuntime().exec("su -c reboot");
->>>>>>> 9aee4f54b091852d7f05bf977ee9f2cc8f0457aa
+
 
                 }catch (IOException e){
 
