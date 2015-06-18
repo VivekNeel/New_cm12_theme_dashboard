@@ -4,7 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
     <uses-permission android:name="android.permission.REBOOT" />
+<<<<<<< HEAD
     <uses-permission android:name="com.android.vending.BILLING" />
+=======
+>>>>>>> 9aee4f54b091852d7f05bf977ee9f2cc8f0457aa
 
     <application
         android:allowBackup="true"
